@@ -1,26 +1,23 @@
 <script lang="ts">
 export default {
   name: "Person",
-  // setup执行时机比beforeCreate还早
-  setup() {
-    let name = "zhangsan";
-    let age = 18;
-    let tel = "13888888888";
-
-    // 方法
-    function showTel() {
-      alert(tel);
+  data() {
+    return {
+      name: "张三 ",
+      age: 18,
+      tel: "1388888888"
     }
-
-    function changeName() {
-      name = "zhangsan";
+  },
+  methods: {
+    showTel() {
+      alert(this.tel)
+    },
+    changeName() {
+      this.name = "李四"
+    },
+    changeAge() {
+      this.age += 1;
     }
-
-    function changeAge() {
-      age += 1;
-    }
-
-    return {name, age, changeAge, showTel, changeName};
   }
 }
 </script>
