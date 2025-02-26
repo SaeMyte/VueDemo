@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c74a82a0-5b7c-4ba7-a924-29eec82074ec" name="Changes" comment="[feat]编写一个Person组件">
-      <change afterPath="$PROJECT_DIR$/备份/02_一个简单的效果/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/备份/02_一个简单的效果/components/Person.vue" afterDir="false" />
+    <list default="true" id="c74a82a0-5b7c-4ba7-a924-29eec82074ec" name="Changes" comment="[feat]setup先于data创建，在data中可以使用this读取setup">
+      <change afterPath="$PROJECT_DIR$/备份/01 setup语法糖/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备份/01 setup语法糖/components/Person.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备份/12 Ref创建基本类型的响应式数据/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备份/12 Ref创建基本类型的响应式数据/components/Person.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备份/13 Reactive创建对象类型的响应数据/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备份/13 Reactive创建对象类型的响应数据/components/Person.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备份/14 使用ref创建对象数据类型/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/备份/14 使用ref创建对象数据类型/components/Person.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Person.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Person.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/tonia/Desktop/work/VueDemo/备份/02_一个简单的效果",
+    "last_opened_file_path": "/Users/tonia/Desktop/work/VueDemo/备份/14 使用ref创建对象数据类型",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,8 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/备份/02_一个简单的效果" />
-      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/备份/14 使用ref创建对象数据类型" />
+      <recent name="$PROJECT_DIR$/备份/13 Reactive创建对象类型的响应数据" />
+      <recent name="$PROJECT_DIR$/备份/12 Ref创建基本类型的响应式数据" />
+      <recent name="$PROJECT_DIR$/备份/05 setup语法糖" />
+      <recent name="$PROJECT_DIR$/备份/04 setup与option API" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/备份/01 自己写一个app组件" />
@@ -118,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739712936874</updated>
-      <workItem from="1739712938064" duration="4324000" />
+      <workItem from="1739712938064" duration="8838000" />
     </task>
     <task id="LOCAL-00001" summary="[init]初始化">
       <option name="closed" value="true" />
@@ -144,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739714523416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[feat]Vue3中的组合式API支持setup，可将data method等放置在一起">
+      <option name="closed" value="true" />
+      <created>1740321890885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740321890885</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[feat]setup先于data创建，在data中可以使用this读取setup">
+      <option name="closed" value="true" />
+      <created>1740407681264</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407681264</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +177,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[init]初始化" />
     <MESSAGE value="[feat]编写一个Person组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feat]编写一个Person组件" />
+    <MESSAGE value="[feat]Vue3中的组合式API支持setup，可将data method等放置在一起" />
+    <MESSAGE value="[feat]setup先于data创建，在data中可以使用this读取setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]setup先于data创建，在data中可以使用this读取setup" />
   </component>
 </project>
